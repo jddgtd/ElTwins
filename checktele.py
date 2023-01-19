@@ -227,7 +227,7 @@ async def _(event):
                     await sedthon(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
-    صدلك يوزر   (@{username}) !
+    تم صيد (@{username}) !
     ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -287,7 +287,7 @@ async def _(event):
                         await sedthon(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
-    صدلك يوزر (@{username}) !
+    تم الصيد ابسط (@{username}) !
     ''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -318,7 +318,7 @@ async def _(event):
                 await sedthon(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
-     صدلك يوزر(@{username}) !
+     تم الصيد ابسط (@{username}) !
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
