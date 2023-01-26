@@ -669,7 +669,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @G_5_7
+      - @xxxmm
 ''', reply_to=event)
 
 
@@ -678,7 +678,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @G_5_7
+      - @xxxmm
 ''', reply_to=event)
 
 
@@ -687,7 +687,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @G_5_7
+      - @xxxmm
 ''', reply_to=event)
 
 
@@ -696,7 +696,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @G_5_7
+      - @xxxmm
 ''', reply_to=event)
 
 
@@ -789,7 +789,7 @@ ownerhson_id = 1816730481
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('🔥اهلا مطوري احمد - @G_5_7')
+        order = await event.reply('اهلا مطوري احمد - @G_5_7')
 
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.ورود"))
