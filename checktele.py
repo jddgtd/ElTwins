@@ -227,16 +227,7 @@ async def _(event):
                     await sedthon(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
- ●━━━━━━━●
-- Source By ↣ @G_5_7 
-
-┏━━━━━┓
-↣ (@{username})
-┗━━━━━┛
-
-- Source Channel ↣ @Y_U_8
-●━━━━━━━●
-
+    تم صيد (@{username}) !
     ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -296,16 +287,7 @@ async def _(event):
                         await sedthon(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
-●━━━━━━━●
-- Source By ↣ @G_5_7 
-
-┏━━━━━┓
-↣ (@{username})
-┗━━━━━┛
-
-- Source Channel ↣ @Y_U_8
-●━━━━━━━●
-
+    تم صيد (@{username}) !
     ''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
