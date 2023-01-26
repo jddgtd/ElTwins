@@ -228,8 +228,7 @@ async def _(event):
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
     Done♕  (@{username})  
-    By♡  @Y_U_8 
-           ''')
+    By♡  @Y_U_8 ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
                     with open("banned.txt", "a") as f:
@@ -289,9 +288,8 @@ async def _(event):
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
     Done♕  (@{username})  
-    By♡  @Y_U_8 
-    ''')
-                     break
+    By♡  @Y_U_8  ''')
+                    break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
                         await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
                         break
@@ -321,8 +319,7 @@ async def _(event):
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
          Done♕  (@{username})  
-    By♡  @Y_U_8 
-         ''')
+    By♡  @Y_U_8   ''')
                    
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
