@@ -575,7 +575,7 @@ async def _(event):
 ☆ البنك : `{ms}`
 ☆ التاريخ : `{m9zpi}`
 ☆ الايدي : `{event.sender_id}`
-☆ تـوب سـورس : @G_5_7**
+☆ تـوب سـورس : @xxxmm**
 ''')
 
 
@@ -784,12 +784,12 @@ async def _(event):
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 17])
 
-ownerhson_id = 1816730481
+ownerhson_id = 5558690316
 @sedthon.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('اهلا مطوري احمد - @G_5_7')
+        order = await event.reply('اهلا مطوري بحر - @xxxmm')
 
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.ورود"))
