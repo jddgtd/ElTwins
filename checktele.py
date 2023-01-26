@@ -227,9 +227,8 @@ async def _(event):
                     await sedthon(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
-    Done♕  (@{username})  
-    By♡  @Y_U_8 
-           ''')
+    تم صيد (@{username}) !
+    ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
                     with open("banned.txt", "a") as f:
@@ -288,10 +287,9 @@ async def _(event):
                         await sedthon(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
-    Done♕  (@{username})  
-    By♡  @Y_U_8 
+    تم صيد (@{username}) !
     ''')
-                     break
+                        break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
                         await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
                         break
@@ -320,10 +318,8 @@ async def _(event):
                 await sedthon(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
-         Done♕  (@{username})  
-    By♡  @Y_U_8 
-         ''')
-                   
+    تم صيد (@{username}) !
+    ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
             except Exception as eee:
